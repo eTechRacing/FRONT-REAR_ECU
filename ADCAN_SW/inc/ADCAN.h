@@ -5,13 +5,11 @@
 #define CAN_USE_EXTENDED_ID FALSE //utilizamos la trama de CAN standard (FALSE). La extendida seria TRUE.
 #include <can-18xxx8.c>
 
-// REGISTRES LEDs: indica el nombre de los seguientes pines, que concuerdan con el esquematico
+// REGISTRES LEDs: indica el nombre de los seguientes pines del micro
 #define CAN       PIN_C3 // pin 14
 #define LED1      PIN_C1 // pin 12
 #define LED2      PIN_C2 // pin 13
-/* segun datasheet: PIN_A0 a PIN_A5 => pin2 a pin7 respectivamente;
-					PIN_B0 a PIN_B7 => pin21 a pin28 respectivamente;
-					PIN_C0 a PIN_C7 => pin11 a pin18 respectivamente;*/
+
 
 //configura fusibles de configuración
 #FUSES NOWDT                    //No Watch Dog Timer; (El Watch Dog timer evita que los microprocesadores se queden colgados)
