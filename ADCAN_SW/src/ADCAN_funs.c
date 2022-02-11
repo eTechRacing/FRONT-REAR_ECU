@@ -31,15 +31,15 @@ void  TIMER2_isr(void)
 /*  Configuracio inicial pel protocol de CAN: desabilita interruptors i activa ADC  */
 /************************************************************************************/
 
-void Initial_Config(void){ //configuració inicial del micro: 
+void Initial_Config(void){ //configuració inicial del micro 
    
-   // configuration: CAN
+   // configuracio CAN
    disable_interrupts(GLOBAL); // desabilitar els interruptors per si quedava algo obert del micro
    can_init(); //llibreria integrada de can
    
    can_set_mode(CAN_OP_CONFIG);
   
-   BRGCON1.brp=1;          
+   BRGCON1.brp=1;     // 500 kBaud
    BRGCON1.sjw=0;         
    BRGCON2.prseg=1;        
    BRGCON2.seg1ph=4;       
@@ -51,16 +51,13 @@ void Initial_Config(void){ //configuració inicial del micro:
 
    can_set_mode(CAN_OP_NORMAL);
    
-   // configuration: ADC
+   // configuracio ADC
    setup_adc_ports(ALL_ANALOG|VSS_VDD);
    setup_adc(ADC_CLOCK_DIV_32|ADC_TAD_MUL_0);
-   
-   // configuration: WATCHDOG
-   setup_wdt(WDT_OFF); //esta off ja que només fa falta per programes llargs. Va plantejar més problemes activtat q desactivat   
 }
 
 /**************************************************************************/
-/*				Envia per CAN el missatge alive del ADCAN 				  */
+/*	 			   Envia per CAN el missatge alive del ADCAN 				            */
 /**************************************************************************/
 
 void send_alive(unsigned int16 _cobid) //envia senyal per indicar que el node no esta penjat
@@ -75,9 +72,9 @@ void send_alive(unsigned int16 _cobid) //envia senyal per indicar que el node no
    output_high(CAN); //led alive
 }
 
-/**************************************************************************/
-/*	  	Envia les dades dels sensors per CAN (4 dades/envio)			  */
-/**************************************************************************/
+/*************************************************************************/
+/*	  	  Envia les dades dels sensors per CAN (4 dades/envio)			     */
+/*************************************************************************/
 
 void send_data (unsigned int16 _cobid, int _len, int16 _data_1, int16 _data_2, int16 _data_3, int16 _data_4)
 {

@@ -13,16 +13,17 @@ unsigned int32 data=0;            	// CAN: message information
 unsigned int32 data_bis=0;        	// CAN: extra information
 int8 CAN_flag = 0;                  // CAN: sincronism flag
 
+
 // VARIABLES: Sensors
 
-int16 APPS1_sum = 0;        		// Sensor: APP 1
-int16 APPS2_sum = 0;        		// Sensor: APP 2
-int16 BrakeS_sum = 0;       		// Sensor: Brake 
-int16 Steering_sum = 0;     		// Sensor: Steering
-int16 SpringFR_sum = 0;     		// Sensor: Suspension Front Right
-int16 SpringFL_sum = 0;     		// Sensor: Suspension Front Left
-//int32 AUX1 = 0;         			// Sensor: Auxiliar signal 1 (see schematic)
-//int32 AUX2 = 0;         			// Sensor: Auxiliar signal 2 (see schematic)
+int16 APPS1_sum = 0;        		// Sensor: suma APP 1
+int16 APPS2_sum = 0;        		// Sensor: suma APP 2
+int16 BrakeS_sum = 0;       		// Sensor: suma Brake 
+int16 Steering_sum = 0;     		// Sensor: suma Steering
+int16 SpringFR_sum = 0;     		// Sensor: suma Suspension Front Right
+int16 SpringFL_sum = 0;     		// Sensor: suma Suspension Front Left
+//int32 AUX1 = 0;         			// Sensor: suma Auxiliar signal 1 
+//int32 AUX2 = 0;         			// Sensor: suma Auxiliar signal 2 
 
 int16 APPS1 = 0;         			// Sensor: APP 1 (MEAN)
 int16 APPS2 = 0;         			// Sensor: APP 2 (MEAN)
@@ -38,4 +39,4 @@ int16 SUSPFL = 0;      				// Sensor: Suspension Front Left (MEAN)
 // VARIABLES: program
 unsigned int mean_filter_flag = 0;  // Timer 2
 unsigned int read_ADC_flag = 0;     // Timer 2 
-signed int16 SUMA = 0;        		// accumulative sum (mean filter)
+signed int16 SUMA = 0;        		// variable temporal per recollir dades sensors

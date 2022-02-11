@@ -39,10 +39,10 @@ void main()
 		}
 
 		// CAN SINCRONISM
-		if (CAN_flag == 1)			//quan CAN_flag s'hagi activat ...
+		if (CAN_flag == 1)         //quan CAN_flag s'hagi activat ...
 		{
-			CAN_flag = 0;			//reinicia variable
-			contCAN++;				//comptador de CAN_flag per enviar alive
+			CAN_flag = 0;           //reinicia variable
+			contCAN++;              //comptador de CAN_flag per enviar alive
 
 			if ( not_first_message == 1 )
 			{  
@@ -94,13 +94,13 @@ void main()
 			SUMA = read_adc();        
 			Steering_sum += SUMA;
 
-			// Spring FR
+			// Suspe FR
 			set_adc_channel(10);
 			delay_us(20);
 			SUMA = read_adc();
 			SpringFR_sum += SUMA;
 
-			// Spring FL 
+			// Suspe FL 
 			set_adc_channel(8);
 			delay_us(20);
 			SUMA = read_adc();
@@ -147,7 +147,5 @@ void main()
 
 			}  
 		} // END if (read_adc_flag >0)
-
 	} // END while(1)
-
 } // END Main
