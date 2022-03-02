@@ -1,0 +1,2 @@
+CAN2=LED_CAN2,CAN2_ADRX,CAN2_ADTX
+Sensors_signals=AUX_1,Steering,Brake,APPS2,APPS1,AUX_2,Susp_FL(f),Suspe_FR(f)
