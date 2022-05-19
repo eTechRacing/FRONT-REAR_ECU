@@ -1,0 +1,96 @@
+Added Component: Designator=J401(J-N2x8_V)
+Add component (AddParameter): Name = "Category"; Value = "Headers and Wire Housings"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://www.molex.com/pdm_docs/sd/1053101210_sd.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.molex.com/pdm_docs/sd/1053101210_sd.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.molex.com/molex/products/part-detail/pcb_headers/1053101116"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Header,Male Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Latch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Material"; Value = "Polymer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "105310-1116"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=3,21000, 10=2,82400, 84=2,24619, 1008=1,86110, 4956=1,66858 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "84"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "WM16885-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Kinked Pin"; VariantName = "[No Variations]"
+Added Component: Designator=TP401(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP402(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP403(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP404(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP405(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP406(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP407(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP408(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP411(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP412(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP413(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP414(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP415(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP416(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP417(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP418(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J401-1
+Added Pin To Net: NetName=GND Pin=J401-2
+Added Pin To Net: NetName=GND Pin=J401-3
+Added Pin To Net: NetName=GND Pin=J401-4
+Added Pin To Net: NetName=GND Pin=J401-5
+Added Pin To Net: NetName=GND Pin=J401-6
+Added Pin To Net: NetName=GND Pin=J401-7
+Added Pin To Net: NetName=GND Pin=J401-8
+Added Pin To Net: NetName=SuspeFL_s Pin=J401-9
+Added Pin To Net: NetName=SuspeFR_s Pin=J401-10
+Added Pin To Net: NetName=aux2_s Pin=J401-11
+Added Pin To Net: NetName=aux1_s Pin=J401-12
+Added Pin To Net: NetName=Steering_s Pin=J401-13
+Added Pin To Net: NetName=Brake_s Pin=J401-14
+Added Pin To Net: NetName=APPS2_s Pin=J401-15
+Added Pin To Net: NetName=APPS1_s Pin=J401-16
+Added Member To Class: ClassName=Designator Member=Component J401 1053101116
+Added Member To Class: ClassName=Designator Member=Component TP401 TestPoint
+Added Member To Class: ClassName=Designator Member=Component TP402 TestPoint
+Added Member To Class: ClassName=Designator Member=Component TP403 TestPoint
+Added Member To Class: ClassName=Designator Member=Component TP404 TestPoint
+Added Member To Class: ClassName=Designator Member=Component TP405 TestPoint
+Added Member To Class: ClassName=Designator Member=Component TP406 TestPoint
+Added Member To Class: ClassName=Designator Member=Component TP407 TestPoint
+Added Member To Class: ClassName=Designator Member=Component TP408 TestPoint
+Added Member To Class: ClassName=Designator Member=Component TP411 TestPoint
+Added Member To Class: ClassName=Designator Member=Component TP412 TestPoint
+Added Member To Class: ClassName=Designator Member=Component TP413 TestPoint
+Added Member To Class: ClassName=Designator Member=Component TP414 TestPoint
+Added Member To Class: ClassName=Designator Member=Component TP415 TestPoint
+Added Member To Class: ClassName=Designator Member=Component TP416 TestPoint
+Added Member To Class: ClassName=Designator Member=Component TP417 TestPoint
+Added Member To Class: ClassName=Designator Member=Component TP418 TestPoint
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
+Added Room: Name=Designator
