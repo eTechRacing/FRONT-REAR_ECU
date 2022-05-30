@@ -423,6 +423,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IPOQTQTN
 
+[Parameter1]
+Name=Author's Name
+Value=Anna Creus Sánchez
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
