@@ -1,2 +1,3 @@
+Accel_signals=SCK_5V,MISO_5V,MOSI_5V,CSB,RST
 CAN2=CAN2_ADTX,CAN2_ADRX,LED_CAN2
-Sensors_signal=APPS1,APPS2,Steering,Brake,Susp_FR,Susp_FL,AUX_1,AUX_2
+Sensors_signal=APPS1,APPS2,Steering,Brake,Susp_FR,Susp_FL

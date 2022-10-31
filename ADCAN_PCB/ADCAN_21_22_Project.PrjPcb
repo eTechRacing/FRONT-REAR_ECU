@@ -40,12 +40,12 @@ VaultGUID=082481D6-5331-4BED-BC73-1EE54992B059
 ReleaseVaultName=EMEA- E-Tech Racing- I'Escola d'Enginyeria de Barcelona Est
 ItemGUID=5DD1A564-6D66-4109-B74D-7756EDF6E3EF
 IncludeDesignInRelease=0
-CrossRefSheetStyle=1
+CrossRefSheetStyle=0
 CrossRefLocationStyle=1
 CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
-CrossRefFollowFromMainSettings=1
+CrossRefFollowFromMainSettings=0
 
 [Preferences]
 PrefsVaultGUID=
@@ -202,7 +202,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=YXUHXBHX
 
 [Document10]
 DocumentPath=..\..\CommonFiles\Altium_Libraries_e-Tech_Racing\PCB\e-Tech_Racing.PcbLib
@@ -219,7 +219,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=TAJQCUKD
 
 [Document11]
 DocumentPath=..\..\CommonFiles\Altium_Libraries_e-Tech_Racing\PCB\Filter components.PcbLib
@@ -236,7 +236,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DSRDPXXJ
 
 [Document12]
 DocumentPath=..\..\CommonFiles\Altium_Libraries_e-Tech_Racing\PCB\Integrated circuits.PcbLib
@@ -253,7 +253,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=HHLTTDIA
 
 [Document13]
 DocumentPath=..\..\CommonFiles\Altium_Libraries_e-Tech_Racing\PCB\Passives.PcbLib
@@ -270,7 +270,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DUCJCCLL
 
 [Document14]
 DocumentPath=..\..\CommonFiles\Altium_Libraries_e-Tech_Racing\PCB\Semiconductor.PcbLib
@@ -287,7 +287,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=ASRCVDDI
 
 [Document15]
 DocumentPath=..\..\CommonFiles\Altium_Libraries_e-Tech_Racing\PCB\Sensors.PcbLib
@@ -304,7 +304,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=JQTLLCMA
 
 [Document16]
 DocumentPath=..\..\CommonFiles\Altium_Libraries_e-Tech_Racing\Schematics\Electromechanical.SchLib
@@ -372,7 +372,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=QOXOPYNW
 
 [Document20]
 DocumentPath=..\..\CommonFiles\Altium_Libraries_e-Tech_Racing\Schematics\Passives.SchLib
@@ -389,7 +389,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=JBBPRFAR
 
 [Document21]
 DocumentPath=..\..\CommonFiles\Altium_Libraries_e-Tech_Racing\Schematics\Semiconductor.SchLib
@@ -406,7 +406,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=HAZZYXZW
 
 [Document22]
 DocumentPath=..\..\CommonFiles\Altium_Libraries_e-Tech_Racing\Schematics\Sensors.SchLib
@@ -423,7 +423,45 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=IARDZSOA
+
+[Document23]
+DocumentPath=Accelerometer.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WACHFFQH
+
+[ProjectVariant1]
+UniqueID=3C5251CE-8C3F-4CDC-A35F-6EC2412F99EC
+Description=V2_ADCAN_21_22_Project
+AllowFabrication=0
+ParameterCount=0
+VariationCount=13
+Variation1=Designator=D401|UniqueId=\SEKAXONA\CNSZXGOA|Kind=1|AlternatePart= 
+Variation2=Designator=D402|UniqueId=\SEKAXONA\SDFOKKTE|Kind=1|AlternatePart= 
+Variation3=Designator=D403|UniqueId=\SEKAXONA\HNZYANSY|Kind=1|AlternatePart= 
+Variation4=Designator=D404|UniqueId=\SEKAXONA\OQJBBFZM|Kind=1|AlternatePart= 
+Variation5=Designator=D405|UniqueId=\SEKAXONA\ZDVUXNAS|Kind=1|AlternatePart= 
+Variation6=Designator=D406|UniqueId=\SEKAXONA\PFFUFYVJ|Kind=1|AlternatePart= 
+Variation7=Designator=D407|UniqueId=\SEKAXONA\LDGPMRTC|Kind=1|AlternatePart= 
+Variation8=Designator=D408|UniqueId=\SEKAXONA\AVFIRDAA|Kind=1|AlternatePart= 
+Variation9=Designator=C301(NP)|UniqueId=\OQMMCOSD\TQJCWTOX|Kind=1|AlternatePart= 
+Variation10=Designator=C304(NP)|UniqueId=\OQMMCOSD\ENLZDUAS|Kind=1|AlternatePart= 
+Variation11=Designator=C307(NP)|UniqueId=\OQMMCOSD\UNFQRIAO|Kind=1|AlternatePart= 
+Variation12=Designator=R301(NP)|UniqueId=\OQMMCOSD\MVCOINPW|Kind=1|AlternatePart= 
+Variation13=Designator=R302(NP)|UniqueId=\OQMMCOSD\FVYQJBIX|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [DiffPairSuffix1]
 Positive=_H
@@ -1208,7 +1246,7 @@ Type6=2
 Type7=0
 Type8=1
 Type9=1
-Type10=1
+Type10=0
 Type11=2
 Type12=0
 Type13=0
