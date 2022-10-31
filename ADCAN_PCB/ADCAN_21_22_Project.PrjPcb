@@ -23,7 +23,7 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
-AutoSheetNumbering=1
+AutoSheetNumbering=0
 AutoCrossReferences=0
 NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
@@ -86,7 +86,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=Supply.SchDoc
+DocumentPath=[1] Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -103,7 +103,7 @@ GenerateClassCluster=0
 DocumentUniqueId=NMFFJAEH
 
 [Document4]
-DocumentPath=MCU.SchDoc
+DocumentPath=[2] MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -120,7 +120,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PKNRFLPP
 
 [Document5]
-DocumentPath=CAN.SchDoc
+DocumentPath=[3] CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -137,7 +137,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RGMCWORS
 
 [Document6]
-DocumentPath=Signals.SchDoc
+DocumentPath=[4] Signals.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -154,7 +154,7 @@ GenerateClassCluster=0
 DocumentUniqueId=NZLZVCGC
 
 [Document7]
-DocumentPath=MCU.Harness
+DocumentPath=[2] MCU.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -426,7 +426,7 @@ GenerateClassCluster=0
 DocumentUniqueId=IARDZSOA
 
 [Document23]
-DocumentPath=Accelerometer.SchDoc
+DocumentPath=[5] Accelerometer.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
