@@ -442,6 +442,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WACHFFQH
 
+[Document24]
+DocumentPath=[6] ADC.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SENFQSVC
+
 [ProjectVariant1]
 UniqueID=3C5251CE-8C3F-4CDC-A35F-6EC2412F99EC
 Description=V2_ADCAN_21_22_Project
