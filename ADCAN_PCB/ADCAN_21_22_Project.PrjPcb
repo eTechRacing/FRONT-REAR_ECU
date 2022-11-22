@@ -495,6 +495,10 @@ Variation26=Designator=D408|UniqueId=\SEKAXONA\PFFUFYVJ|Kind=1|AlternatePart=
 Variation27=Designator=D409|UniqueId=\SEKAXONA\TERYUQRO|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for ADCAN_21_22_Project\Design Rule Check - ADCAN_21_22.html
+DItemRevisionGUID=
+
 [DiffPairSuffix1]
 Positive=_H
 Negative=_L
