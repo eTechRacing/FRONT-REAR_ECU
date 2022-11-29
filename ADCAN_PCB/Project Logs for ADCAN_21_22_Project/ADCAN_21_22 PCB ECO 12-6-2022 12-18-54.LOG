@@ -1,0 +1,116 @@
+Removed Pin From Net: NetName=PGC Pin=D204-2
+Removed Pin From Net: NetName=PGD Pin=D205-2
+Removed Pin From Net: NetName=GND Pin=D206-2
+Removed Pin From Net: NetName=+5 Pin=D207-2
+Removed Pin From Net: NetName=NetC305_1 Pin=D302-1
+Removed Pin From Net: NetName=NetC306_2 Pin=D303-1
+Removed Pin From Net: NetName=APPS1_s Pin=D401-2
+Removed Pin From Net: NetName=APPS2_s Pin=D402-2
+Removed Pin From Net: NetName=Brake_s Pin=D403-2
+Removed Pin From Net: NetName=Steering_s Pin=D404-2
+Removed Pin From Net: NetName=aux1_s Pin=D405-2
+Removed Pin From Net: NetName=aux2_s Pin=D406-2
+Removed Pin From Net: NetName=SuspeFR_s Pin=D407-2
+Removed Pin From Net: NetName=SuspeFL_s Pin=D408-2
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Add Component: Footprint Not Found TestPoint
+Added Pin To Net: NetName=GND Pin=D302-1
+Added Pin To Net: NetName=NetC305_1 Pin=D302-2
+Added Pin To Net: NetName=GND Pin=D303-1
+Added Pin To Net: NetName=NetC306_2 Pin=D303-2
+Added Pin To Net: NetName=APPS1_s Pin=D401-1
+Added Pin To Net: NetName=GND Pin=D401-2
+Added Pin To Net: NetName=APPS2_s Pin=D402-1
+Added Pin To Net: NetName=GND Pin=D402-2
+Added Pin To Net: NetName=Brake_s Pin=D403-1
+Added Pin To Net: NetName=GND Pin=D403-2
+Added Pin To Net: NetName=Steering_s Pin=D404-1
+Added Pin To Net: NetName=GND Pin=D404-2
+Added Pin To Net: NetName=aux1_s Pin=D405-1
+Added Pin To Net: NetName=GND Pin=D405-2
+Added Pin To Net: NetName=aux2_s Pin=D406-1
+Added Pin To Net: NetName=GND Pin=D406-2
+Added Pin To Net: NetName=SuspeFR_s Pin=D407-1
+Added Pin To Net: NetName=GND Pin=D407-2
+Added Pin To Net: NetName=SuspeFL_s Pin=D408-1
+Added Pin To Net: NetName=GND Pin=D408-2
+Added Pin To Net: NetName=+5 Pin=J201-2
+Added Pin To Net: NetName=GND Pin=J201-3
+Added Pin To Net: NetName=PGD Pin=J201-4
+Added Pin To Net: NetName=PGC Pin=J201-5
+Added Pin To Net: NetName=NetC305_1 Pin=J301-1
+Added Pin To Net: NetName=NetC306_2 Pin=J301-2
+Added Pin To Net: NetName=SuspeFL_s Pin=J401-9
+Added Pin To Net: NetName=SuspeFR_s Pin=J401-10
+Added Pin To Net: NetName=aux2_s Pin=J401-11
+Added Pin To Net: NetName=aux1_s Pin=J401-12
+Added Pin To Net: NetName=Steering_s Pin=J401-13
+Added Pin To Net: NetName=Brake_s Pin=J401-14
+Added Pin To Net: NetName=APPS2_s Pin=J401-15
+Added Pin To Net: NetName=APPS1_s Pin=J401-16
+Add Pin To Net: Unknown Pin: Pin TP301-1
+Add Pin To Net: Unknown Pin: Pin TP302-1
+Add Pin To Net: Unknown Pin: Pin TP303-1
+Add Pin To Net: Unknown Pin: Pin TP304-1
+Add Pin To Net: Unknown Pin: Pin TP305-1
+Add Pin To Net: Unknown Pin: Pin TP306-1
+Add Pin To Net: Unknown Pin: Pin TP401-1
+Add Pin To Net: Unknown Pin: Pin TP402-1
+Add Pin To Net: Unknown Pin: Pin TP403-1
+Add Pin To Net: Unknown Pin: Pin TP404-1
+Add Pin To Net: Unknown Pin: Pin TP405-1
+Add Pin To Net: Unknown Pin: Pin TP406-1
+Add Pin To Net: Unknown Pin: Pin TP407-1
+Add Pin To Net: Unknown Pin: Pin TP408-1
+Add Pin To Net: Unknown Pin: Pin TP411-1
+Add Pin To Net: Unknown Pin: Pin TP412-1
+Add Pin To Net: Unknown Pin: Pin TP413-1
+Add Pin To Net: Unknown Pin: Pin TP414-1
+Add Pin To Net: Unknown Pin: Pin TP415-1
+Add Pin To Net: Unknown Pin: Pin TP416-1
+Add Pin To Net: Unknown Pin: Pin TP417-1
+Add Pin To Net: Unknown Pin: Pin TP418-1
+Add Pin To Net: Unknown Pin: Pin TP501-1
+Added Pin To Net: NetName=NetJ201_1 Pin=J201-1
+Added Pin To Net: NetName=NetJ201_1 Pin=U201-1
+Added Net: Name=NetJ201_1
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class: Class already exists: Designator
+Add Class Member: Failed to add class member : Component TP401 TestPoint
+Add Class Member: Failed to add class member : Component TP402 TestPoint
+Add Class Member: Failed to add class member : Component TP403 TestPoint
+Add Class Member: Failed to add class member : Component TP404 TestPoint
+Add Class Member: Failed to add class member : Component TP405 TestPoint
+Add Class Member: Failed to add class member : Component TP406 TestPoint
+Add Class Member: Failed to add class member : Component TP407 TestPoint
+Add Class Member: Failed to add class member : Component TP408 TestPoint
+Add Class Member: Failed to add class member : Component TP411 TestPoint
+Add Class Member: Failed to add class member : Component TP412 TestPoint
+Add Class Member: Failed to add class member : Component TP413 TestPoint
+Add Class Member: Failed to add class member : Component TP414 TestPoint
+Add Class Member: Failed to add class member : Component TP415 TestPoint
+Add Class Member: Failed to add class member : Component TP416 TestPoint
+Add Class Member: Failed to add class member : Component TP417 TestPoint
+Add Class Member: Failed to add class member : Component TP418 TestPoint

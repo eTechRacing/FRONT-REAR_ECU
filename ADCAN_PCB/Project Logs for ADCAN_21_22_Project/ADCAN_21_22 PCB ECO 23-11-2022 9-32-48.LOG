@@ -1,0 +1,84 @@
+Added Component: Designator=MH1(Mounting_Hole_M3)
+Added Component: Designator=MH2(Mounting_Hole_M3)
+Added Component: Designator=MH3(Mounting_Hole_M3)
+Added Component: Designator=MH4(Mounting_Hole_M3)
+Added Component: Designator=TP401(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP402(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP403(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP404(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP405(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP406(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP407(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP408(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP409(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP411(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP412(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP413(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP414(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP415(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP416(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP417(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP418(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Component: Designator=TP419(TestPoint)
+Add component (AddParameter): Name = "Category"; Value = "TestPoint"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=MH1-1
+Added Pin To Net: NetName=GND Pin=MH2-1
+Added Pin To Net: NetName=GND Pin=MH3-1
+Added Pin To Net: NetName=GND Pin=MH4-1
+Added Pin To Net: NetName=APPS1 Pin=TP401-1
+Added Pin To Net: NetName=APPS2 Pin=TP402-1
+Added Pin To Net: NetName=Brake Pin=TP403-1
+Added Pin To Net: NetName=Steering Pin=TP404-1
+Added Pin To Net: NetName=AUX1 Pin=TP405-1
+Added Pin To Net: NetName=AUX2 Pin=TP406-1
+Added Pin To Net: NetName=Suspension_FR Pin=TP407-1
+Added Pin To Net: NetName=Suspension_FL Pin=TP408-1
+Added Pin To Net: NetName=AUX3 Pin=TP409-1
+Added Pin To Net: NetName=APPS1_s Pin=TP411-1
+Added Pin To Net: NetName=APPS2_s Pin=TP412-1
+Added Pin To Net: NetName=Brake_s Pin=TP413-1
+Added Pin To Net: NetName=Steering_s Pin=TP414-1
+Added Pin To Net: NetName=AUX1_s Pin=TP415-1
+Added Pin To Net: NetName=AUX2_s Pin=TP416-1
+Added Pin To Net: NetName=SuspeFR_s Pin=TP417-1
+Added Pin To Net: NetName=SuspeFL_s Pin=TP418-1
+Added Pin To Net: NetName=AUX3_s Pin=TP419-1
+Added Member To Class: ClassName=main Member=Component MH1 Mounting_Hole_M3
+Added Member To Class: ClassName=main Member=Component MH2 Mounting_Hole_M3
+Added Member To Class: ClassName=main Member=Component MH3 Mounting_Hole_M3
+Added Member To Class: ClassName=main Member=Component MH4 Mounting_Hole_M3
+Added Member To Class: ClassName=Sheet 4 Member=Component TP401 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP402 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP403 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP404 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP405 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP406 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP407 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP408 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP409 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP411 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP412 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP413 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP414 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP415 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP416 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP417 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP418 TestPoint
+Added Member To Class: ClassName=Sheet 4 Member=Component TP419 TestPoint
