@@ -46,14 +46,13 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=0
-CurrentVariant=Variant of ADCAN_21_22_Project
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=main.SchDoc
+DocumentPath=ADCAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -70,7 +69,7 @@ GenerateClassCluster=0
 DocumentUniqueId=XDCSMSAK
 
 [Document2]
-DocumentPath=main.Harness
+DocumentPath=ADCAN.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -444,7 +443,7 @@ GenerateClassCluster=0
 DocumentUniqueId=SENFQSVC
 
 [Document24]
-DocumentPath=ADCAN_21_22.PcbDoc
+DocumentPath=ADCAN.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -461,7 +460,7 @@ GenerateClassCluster=0
 DocumentUniqueId=GROQDAHG
 
 [Document25]
-DocumentPath=ADCAN_21_22_Project.BomDoc
+DocumentPath=ADCANBomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -477,9 +476,26 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document26]
+DocumentPath=ADCAN.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SAQNPBVJ
+
 [ProjectVariant1]
 UniqueID=AA501A73-24F8-4D1E-A7C5-A611C57EB705
-Description=Variant of ADCAN_21_22_Project
+Description=ETR-X
 AllowFabrication=0
 ParameterCount=0
 VariationCount=27
