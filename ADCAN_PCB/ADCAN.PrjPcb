@@ -46,6 +46,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=0
+CurrentVariant=ETR-X
 
 [Preferences]
 PrefsVaultGUID=
@@ -460,23 +461,6 @@ GenerateClassCluster=0
 DocumentUniqueId=GROQDAHG
 
 [Document25]
-DocumentPath=ADCANBomDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document26]
 DocumentPath=ADCAN.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -492,6 +476,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SAQNPBVJ
+
+[Document26]
+DocumentPath=ADCAN.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document27]
+DocumentPath=ADCAN.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=AA501A73-24F8-4D1E-A7C5-A611C57EB705
@@ -529,8 +547,40 @@ Variation27=Designator=D409|UniqueId=\SEKAXONA\TERYUQRO|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for ADCAN_21_22_Project\Design Rule Check - ADCAN_21_22.html
+DocumentPath=Project Outputs for ADCAN\Design Rule Check - ADCAN.html
 DItemRevisionGUID=
+
+[Parameter1]
+Name=Company
+Value=e-Tech Racing
+
+[Parameter2]
+Name=Department
+Value=Sensorics
+
+[Parameter3]
+Name=DesignedByURL
+Value=e-techracing.es
+
+[Parameter4]
+Name=DesignerMail
+Value=acreuss2000@gmail.com
+
+[Parameter5]
+Name=DesignerName
+Value=Anna Creus
+
+[Parameter6]
+Name=Project
+Value=ADCAN
+
+[Parameter7]
+Name=ReviewerName
+Value=David Redondo
+
+[Parameter8]
+Name=Version
+Value=3.0
 
 [DiffPairSuffix1]
 Positive=_H
@@ -545,6 +595,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
