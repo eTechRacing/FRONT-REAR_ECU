@@ -551,36 +551,36 @@ DocumentPath=Project Outputs for ADCAN\Design Rule Check - ADCAN.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Company
-Value=e-Tech Racing
+Name=Version
+Value=3.0
 
 [Parameter2]
-Name=Department
-Value=Sensorics
-
-[Parameter3]
-Name=DesignedByURL
-Value=e-techracing.es
-
-[Parameter4]
-Name=DesignerMail
-Value=acreuss2000@gmail.com
-
-[Parameter5]
-Name=DesignerName
-Value=Anna Creus
-
-[Parameter6]
-Name=Project
-Value=ADCAN
-
-[Parameter7]
 Name=ReviewerName
 Value=David Redondo
 
+[Parameter3]
+Name=Project
+Value=ADCAN
+
+[Parameter4]
+Name=DesignerName
+Value=Anna Creus
+
+[Parameter5]
+Name=DesignerMail
+Value=acreuss00@gmail.com
+
+[Parameter6]
+Name=DesignedByURL
+Value=e-techracing.es
+
+[Parameter7]
+Name=Department
+Value=Sensorics
+
 [Parameter8]
-Name=Version
-Value=3.0
+Name=Company
+Value=e-Tech Racing
 
 [DiffPairSuffix1]
 Positive=_H
@@ -1557,6 +1557,51 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=+3.3|NetColor=$00FF6EFF
+Net2=NetName=+5|NetColor=$00FF6EFF
+Net3=NetName=APPS1_s|NetColor=clYellow
+Net4=NetName=APPS2_s|NetColor=clYellow
+Net5=NetName=AUX1_s|NetColor=clYellow
+Net6=NetName=AUX2_s|NetColor=clYellow
+Net7=NetName=AUX3_s|NetColor=clYellow
+Net8=NetName=Brake_s|NetColor=clYellow
+Net9=NetName=CAN2_H|NetColor=$006EFF6E
+Net10=NetName=CAN2_L|NetColor=$006EFF6E
+Net11=NetName=GND|NetColor=$003E3C44
+Net12=NetName=LV+in|NetColor=$006E6EFF
+Net13=NetName=NetC102_2|NetColor=$00FF6EFF
+Net14=NetName=NetD101_2|NetColor=$006E6EFF
+Net15=NetName=NetDCDC1_3|NetColor=$00FF6EFF
+Net16=NetName=NetJ1_13|NetColor=clYellow
+Net17=NetName=NetJ1_14|NetColor=clYellow
+Net18=NetName=NetJ1_15|NetColor=clYellow
+Net19=NetName=NetJ1_2|NetColor=clYellow
+Net20=NetName=NetJ1_3|NetColor=clYellow
+Net21=NetName=NetJ1_4|NetColor=clYellow
+Net22=NetName=NetJ1_5|NetColor=clYellow
+Net23=NetName=NetJ1_6|NetColor=clYellow
+Net24=NetName=NetJ1_7|NetColor=clYellow
+Net25=NetName=NetJ2_1|NetColor=clYellow
+Net26=NetName=NetJ2_2|NetColor=clYellow
+Net27=NetName=NetJ2_3|NetColor=clYellow
+Net28=NetName=NetJ2_4|NetColor=clYellow
+Net29=NetName=NetJ2_5|NetColor=clYellow
+Net30=NetName=NetJ2_6|NetColor=clYellow
+Net31=NetName=NetJ2_7|NetColor=clYellow
+Net32=NetName=NetJ2_8|NetColor=clYellow
+Net33=NetName=NetU601_1|NetColor=clYellow
+Net34=NetName=NetU601_2|NetColor=clYellow
+Net35=NetName=NetU601_3|NetColor=clYellow
+Net36=NetName=NetU601_4|NetColor=clYellow
+Net37=NetName=NetU601_5|NetColor=clYellow
+Net38=NetName=NetU601_6|NetColor=clYellow
+Net39=NetName=NetU601_7|NetColor=clYellow
+Net40=NetName=NetU601_8|NetColor=clYellow
+Net41=NetName=Steering_s|NetColor=clYellow
+Net42=NetName=SuspeFL_s|NetColor=clYellow
+Net43=NetName=SuspeFR_s|NetColor=clYellow
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
