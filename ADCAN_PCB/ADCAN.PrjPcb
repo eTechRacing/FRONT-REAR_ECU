@@ -551,36 +551,36 @@ DocumentPath=Project Outputs for ADCAN\Design Rule Check - ADCAN.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Version
-Value=3.0
+Name=Company
+Value=e-Tech Racing
 
 [Parameter2]
-Name=ReviewerName
-Value=David Redondo
-
-[Parameter3]
-Name=Project
-Value=ADCAN
-
-[Parameter4]
-Name=DesignerName
-Value=Anna Creus
-
-[Parameter5]
-Name=DesignerMail
-Value=acreuss00@gmail.com
-
-[Parameter6]
-Name=DesignedByURL
-Value=e-techracing.es
-
-[Parameter7]
 Name=Department
 Value=Sensorics
 
+[Parameter3]
+Name=DesignedByURL
+Value=e-techracing.es
+
+[Parameter4]
+Name=DesignerMail
+Value=acreuss00@gmail.com
+
+[Parameter5]
+Name=DesignerName
+Value=Anna Creus
+
+[Parameter6]
+Name=Project
+Value=ADCAN
+
+[Parameter7]
+Name=ReviewerName
+Value=David Redondo
+
 [Parameter8]
-Name=Company
-Value=e-Tech Racing
+Name=Version
+Value=3.0
 
 [DiffPairSuffix1]
 Positive=_H
