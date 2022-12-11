@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\dwegg\Desktop\Electronics Repo\ADCAN\ADCAN_PCB\ADCAN.PcbDoc
-Date     : 09/12/2022
-Time     : 15:35:17
+Date     : 11/12/2022
+Time     : 22:01:41
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
@@ -33,10 +33,7 @@ Rule Violations :0
 
 Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
    Violation between Silk To Silk Clearance Constraint: (0.23mm < 0.254mm) Between Text "C506" (23.501mm,77.93mm) on Top Overlay And Track (21.375mm,78.9mm)(24.475mm,78.9mm) on Top Overlay Silk Text to Silk Clearance [0.23mm]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "J1" (14.002mm,16.477mm) on Top Overlay And Track (14.775mm,17.7mm)(14.775mm,23.1mm) on Top Overlay Silk Text to Silk Clearance [0mm]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "J1" (14.002mm,16.477mm) on Top Overlay And Track (14.775mm,17.7mm)(14.925mm,17.7mm) on Top Overlay Silk Text to Silk Clearance [0mm]
-   Violation between Silk To Silk Clearance Constraint: (Collision < 0.254mm) Between Text "J2" (14.82mm,78.532mm) on Top Overlay And Track (8mm,78.91mm)(19mm,78.91mm) on Top Overlay Silk Text to Silk Clearance [0mm]
-Rule Violations :4
+Rule Violations :1
 
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
    Violation between Net Antennae: Via (48.5mm,93.25mm) from Top Layer to Bottom Layer 
@@ -67,6 +64,6 @@ Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (Al
 Rule Violations :0
 
 
-Violations Detected : 9
+Violations Detected : 6
 Waived Violations : 0
 Time Elapsed        : 00:00:01
