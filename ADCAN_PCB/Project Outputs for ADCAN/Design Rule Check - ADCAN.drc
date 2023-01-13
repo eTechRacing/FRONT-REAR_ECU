@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\dwegg\Desktop\Electronics Repo\ADCAN\ADCAN_PCB\ADCAN.PcbDoc
-Date     : 11/12/2022
-Time     : 22:01:41
+Date     : 13/01/2023
+Time     : 15:11:31
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
@@ -66,4 +66,4 @@ Rule Violations :0
 
 Violations Detected : 6
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02
