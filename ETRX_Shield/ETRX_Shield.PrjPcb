@@ -49,7 +49,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\..\..\..\Uni\az_eTechRacing\HW\Shield\ETRX_Shield\ETRX_Shield.SchDoc
+DocumentPath=ETRX_Shield.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -66,7 +66,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FDITSFHI
 
 [Document2]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\PCB\Electromechanical.PcbLib
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\PCB\Electromechanical.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -83,7 +83,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\PCB\e-Tech_Racing.PcbLib
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\PCB\e-Tech_Racing.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -100,7 +100,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\PCB\Filter components.PcbLib
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\PCB\Filter components.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -117,7 +117,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document5]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\PCB\Integrated circuits.PcbLib
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\PCB\Integrated circuits.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -134,7 +134,7 @@ GenerateClassCluster=0
 DocumentUniqueId=HHLTTDIA
 
 [Document6]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\PCB\Passives.PcbLib
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\PCB\Passives.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -151,7 +151,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document7]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\PCB\Semiconductor.PcbLib
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\PCB\Semiconductor.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -168,7 +168,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document8]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\PCB\Sensors.PcbLib
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\PCB\Sensors.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -185,7 +185,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document9]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\Common Files eTech Racing.LibPkg
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\Common Files eTech Racing.LibPkg
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -202,7 +202,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\Electromechanical.SchLib
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\Electromechanical.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -219,7 +219,7 @@ GenerateClassCluster=0
 DocumentUniqueId=AQBXIDFG
 
 [Document11]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\e-Tech_Racing.ERR
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\e-Tech_Racing.ERR
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -236,7 +236,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document12]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\e-Tech_Racing.SchLib
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\e-Tech_Racing.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -253,7 +253,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document13]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\Filter components.SchLib
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\Filter components.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -270,7 +270,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document14]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\Integrated circuits.SchLib
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\Integrated circuits.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -287,7 +287,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QOXOPYNW
 
 [Document15]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\Passives.SchLib
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\Passives.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -304,7 +304,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document16]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\Semiconductor.SchLib
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\Semiconductor.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -321,7 +321,7 @@ GenerateClassCluster=0
 DocumentUniqueId=HAZZYXZW
 
 [Document17]
-DocumentPath=..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\Sensors.SchLib
+DocumentPath=..\..\..\..\..\..\Downloads\CommonFiles-main\Altium_Libraries_e-Tech_Racing\Schematics\Sensors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -338,7 +338,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document18]
-DocumentPath=..\..\..\..\Uni\az_eTechRacing\HW\Shield\ETRX_Shield\[1] Supply.SchDoc
+DocumentPath=[1] Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -355,7 +355,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QHOLPJCE
 
 [Document19]
-DocumentPath=..\..\..\..\Uni\az_eTechRacing\HW\Shield\ETRX_Shield\[2] MCU.SchDoc
+DocumentPath=[2] MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -372,7 +372,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PNPFXGXY
 
 [Document20]
-DocumentPath=..\..\..\..\Uni\az_eTechRacing\HW\Shield\ETRX_Shield\[3] CAN.SchDoc
+DocumentPath=[3] CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -389,7 +389,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FRHMOOJW
 
 [Document21]
-DocumentPath=..\..\..\..\..\Downloads\MCP2551-I_SN.IntLib
+DocumentPath=..\..\..\..\..\..\Downloads\MCP2551-I_SN.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -406,7 +406,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document22]
-DocumentPath=..\..\..\..\Uni\az_eTechRacing\HW\Shield\CAN Transceiver.SchLib
+DocumentPath=..\CAN Transceiver.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -423,7 +423,7 @@ GenerateClassCluster=0
 DocumentUniqueId=GDCAGLIF
 
 [Document23]
-DocumentPath=..\..\..\..\Uni\az_eTechRacing\HW\Shield\Altium Libraries\QFP50P1600X1600X160-100N.PcbLib
+DocumentPath=..\Altium Libraries\QFP50P1600X1600X160-100N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -440,7 +440,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document24]
-DocumentPath=..\..\..\..\Uni\az_eTechRacing\HW\Shield\Altium Libraries\STM32F777VIT6.epw
+DocumentPath=..\Altium Libraries\STM32F777VIT6.epw
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -457,7 +457,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document25]
-DocumentPath=..\..\..\..\Uni\az_eTechRacing\HW\Shield\Altium Libraries\STM32F777VIT6.SchLib
+DocumentPath=..\Altium Libraries\STM32F777VIT6.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -474,7 +474,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document26]
-DocumentPath=..\..\..\..\Uni\az_eTechRacing\Library\ExportIntLib\Components - 29.05.23 - 20.25.zip
+DocumentPath=..\..\..\Library\ExportIntLib\Components - 29.05.23 - 20.25.zip
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -491,7 +491,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document27]
-DocumentPath=..\..\..\New\download\Documentos\GitHub\CommonFiles\Altium_Libraries_e-Tech_Racing\Schematics\e-Tech_Racing.ERR
+DocumentPath=..\..\..\..\..\download\New\download\Documentos\GitHub\CommonFiles\Altium_Libraries_e-Tech_Racing\Schematics\e-Tech_Racing.ERR
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -508,7 +508,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document28]
-DocumentPath=..\..\..\..\Uni\az_eTechRacing\HW\Shield\Altium Libraries\CAN Transceiver.SchLib
+DocumentPath=..\Altium Libraries\CAN Transceiver.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -525,7 +525,7 @@ GenerateClassCluster=0
 DocumentUniqueId=GDCAGLIF
 
 [Document29]
-DocumentPath=..\..\..\..\Uni\az_eTechRacing\HW\Shield\Altium Libraries\WR-USB.IntLib
+DocumentPath=..\Altium Libraries\WR-USB.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -542,7 +542,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document30]
-DocumentPath=..\..\..\..\Uni\az_eTechRacing\HW\Shield\Altium Libraries\LEMO-EXG.0B.306.HLN.IntLib
+DocumentPath=..\Altium Libraries\LEMO-EXG.0B.306.HLN.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -559,7 +559,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document31]
-DocumentPath=..\..\..\..\Uni\az_eTechRacing\HW\Shield\Altium Libraries\Altium_WS-SLSU (rev22a).IntLib
+DocumentPath=..\Altium Libraries\Altium_WS-SLSU (rev22a).IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -576,7 +576,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document32]
-DocumentPath=..\..\..\..\Uni\az_eTechRacing\HW\Shield\Altium Libraries\Altium_WS-SW.IntLib
+DocumentPath=..\Altium Libraries\Altium_WS-SW.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -593,7 +593,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document33]
-DocumentPath=..\..\..\..\Uni\az_eTechRacing\HW\Shield\Altium Libraries\Altium_WS-SW bo.IntLib
+DocumentPath=..\Altium Libraries\Altium_WS-SW bo.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -610,7 +610,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document34]
-DocumentPath=..\..\..\..\..\Downloads\Altium_WR-PHD (rev22b).IntLib
+DocumentPath=..\..\..\..\..\..\Downloads\Altium_WR-PHD (rev22b).IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -797,8 +797,8 @@ OutputDefault1=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
+TargetPrinter=Develop-ineoPlus-308-41-63-FB
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
@@ -882,9 +882,7 @@ OutputName14=Schematic Prints
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.97|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PrintScaleName=PrintFitPageWidth|PaperKind=A4|PaperIndex=9
-Configuration14_Name1=OutputConfigurationParameter1
-Configuration14_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=C:\Users\berna\OneDrive\Uni\az_eTechRacing\HW\Shield\ETRX_Shield\[2] MCU.SchDoc
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 OutputType15=SimView Print
 OutputName15=SimView Prints
 OutputDocumentPath15=
