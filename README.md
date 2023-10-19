@@ -25,9 +25,9 @@ El microcontrolador és el més potent que s'ha pogut aconseguir per patrocinado
 pensant en el fet de que la shield sigui una placa amb futur, s'afageix una memoria EEPROM utilitzat el I2C número 4 del STM32.
 
 Pel que fa la resta de la placa no hi ha cap complicació. S'implementa un USB_OTG amb un connector micro USB 2.0 per debug i visualització de dades per PC. Es fa servir el CAN
-transceiver MCP2551 de microchip (fàcil d'aconseguir per samples) i unes proteccions a la linea CAN bastant estàndard. La resta dels pins del MCU van directament al
+transceiver MCP2551 de microchip (fàcil d'aconseguir per samples) i unes proteccions i filtres a la linea CAN bastant estàndard. La resta dels pins del MCU van directament al
 pin header excepte:
 -VBAT: es col·loca un divisor de tensió rebaixant 30V a 3.3V. Això permet fer servir VBAT com una entrada analogica per medir la tensió que ofereix la LV.
--VBUS: es fa servir com a pin per detectar si hi ha presencia d'USB.
+-VBUS: es fa servir com a entrada digital per detectar si hi ha presencia d'USB.
 -NRST: pin de reset del micocontrolador. Necessari per programar. Se li posa un botó per també poder fer reset manualment.
 -Boot0: se li posa un switch per curtcircuitar a 3.3V o a GND. Això permetrà setejar al micro com a blank i poder carregar informació des del USB o programar més facilment.
