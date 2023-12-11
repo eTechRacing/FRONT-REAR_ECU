@@ -1,7 +1,0 @@
-=Sensata 9360
--Vcc 5V
--2 analog inputs
--6 pins
-	-2 Vcc
-	-2 GND
-	-2 Vs
