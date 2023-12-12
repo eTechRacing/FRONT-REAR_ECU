@@ -355,37 +355,88 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=APCCQPQF
 
+[Document19]
+DocumentPath=[2] Sensors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BIJQRQCL
+
+[Document20]
+DocumentPath=[3] SDC.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ALJHDWXJ
+
+[Document21]
+DocumentPath=[4] Expansion pins.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RRURGERO
+
 [Parameter1]
-Name=Version
-Value=1.0
+Name=Company
+Value=e-Tech Racing
 
 [Parameter2]
-Name=ReviewerName
-Value=Andreu Senis
-
-[Parameter3]
-Name=Project
-Value=Front ECU
-
-[Parameter4]
-Name=DesignerName
-Value=Bernat Costa Cesari
-
-[Parameter5]
-Name=DesignerMail
-Value=bernat.costa.cesari@estudiantat.upc.edu
-
-[Parameter6]
-Name=DesignedByURL
-Value=e-techracing.es
-
-[Parameter7]
 Name=Department
 Value=Hardware
 
+[Parameter3]
+Name=DesignedByURL
+Value=e-techracing.es
+
+[Parameter4]
+Name=DesignerMail
+Value=bernat.costa.cesari@estudiantat.upc.edu
+
+[Parameter5]
+Name=DesignerName
+Value=Bernat Costa Cesari
+
+[Parameter6]
+Name=Project
+Value=Front ECU
+
+[Parameter7]
+Name=ReviewerName
+Value=Andreu Senis
+
 [Parameter8]
-Name=Company
-Value=e-Tech Racing
+Name=Version
+Value=1.0
 
 [DiffPairSuffix1]
 Positive=_H
