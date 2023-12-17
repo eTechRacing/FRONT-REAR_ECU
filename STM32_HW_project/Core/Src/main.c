@@ -48,7 +48,7 @@ I2C_HandleTypeDef hi2c2;
 
 SPI_HandleTypeDef hspi1;
 
-UART_HandleTypeDef huart2;
+USART_HandleTypeDef husart3;
 
 PCD_HandleTypeDef hpcd_USB_OTG_FS;
 
@@ -58,15 +58,14 @@ PCD_HandleTypeDef hpcd_USB_OTG_FS;
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
-static void MPU_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_CAN1_Init(void);
 static void MX_CAN2_Init(void);
 static void MX_I2C1_Init(void);
 static void MX_I2C2_Init(void);
 static void MX_SPI1_Init(void);
-static void MX_USART2_UART_Init(void);
 static void MX_USB_OTG_FS_PCD_Init(void);
+static void MX_USART3_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -85,9 +84,6 @@ int main(void)
   /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
-
-  /* MPU Configuration--------------------------------------------------------*/
-  MPU_Config();
 
   /* MCU Configuration--------------------------------------------------------*/
 
@@ -112,8 +108,8 @@ int main(void)
   MX_I2C1_Init();
   MX_I2C2_Init();
   MX_SPI1_Init();
-  MX_USART2_UART_Init();
   MX_USB_OTG_FS_PCD_Init();
+  MX_USART3_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -393,37 +389,36 @@ static void MX_SPI1_Init(void)
 }
 
 /**
-  * @brief USART2 Initialization Function
+  * @brief USART3 Initialization Function
   * @param None
   * @retval None
   */
-static void MX_USART2_UART_Init(void)
+static void MX_USART3_Init(void)
 {
 
-  /* USER CODE BEGIN USART2_Init 0 */
+  /* USER CODE BEGIN USART3_Init 0 */
 
-  /* USER CODE END USART2_Init 0 */
+  /* USER CODE END USART3_Init 0 */
 
-  /* USER CODE BEGIN USART2_Init 1 */
+  /* USER CODE BEGIN USART3_Init 1 */
 
-  /* USER CODE END USART2_Init 1 */
-  huart2.Instance = USART2;
-  huart2.Init.BaudRate = 115200;
-  huart2.Init.WordLength = UART_WORDLENGTH_8B;
-  huart2.Init.StopBits = UART_STOPBITS_1;
-  huart2.Init.Parity = UART_PARITY_NONE;
-  huart2.Init.Mode = UART_MODE_TX_RX;
-  huart2.Init.HwFlowCtl = UART_HWCONTROL_NONE;
-  huart2.Init.OverSampling = UART_OVERSAMPLING_16;
-  huart2.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
-  huart2.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
-  if (HAL_UART_Init(&huart2) != HAL_OK)
+  /* USER CODE END USART3_Init 1 */
+  husart3.Instance = USART3;
+  husart3.Init.BaudRate = 115200;
+  husart3.Init.WordLength = USART_WORDLENGTH_8B;
+  husart3.Init.StopBits = USART_STOPBITS_1;
+  husart3.Init.Parity = USART_PARITY_NONE;
+  husart3.Init.Mode = USART_MODE_TX_RX;
+  husart3.Init.CLKPolarity = USART_POLARITY_LOW;
+  husart3.Init.CLKPhase = USART_PHASE_1EDGE;
+  husart3.Init.CLKLastBit = USART_LASTBIT_DISABLE;
+  if (HAL_USART_Init(&husart3) != HAL_OK)
   {
     Error_Handler();
   }
-  /* USER CODE BEGIN USART2_Init 2 */
+  /* USER CODE BEGIN USART3_Init 2 */
 
-  /* USER CODE END USART2_Init 2 */
+  /* USER CODE END USART3_Init 2 */
 
 }
 
@@ -485,35 +480,6 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 
 /* USER CODE END 4 */
-
-/* MPU Configuration */
-
-void MPU_Config(void)
-{
-  MPU_Region_InitTypeDef MPU_InitStruct = {0};
-
-  /* Disables the MPU */
-  HAL_MPU_Disable();
-
-  /** Initializes and configures the Region and the memory to be protected
-  */
-  MPU_InitStruct.Enable = MPU_REGION_ENABLE;
-  MPU_InitStruct.Number = MPU_REGION_NUMBER0;
-  MPU_InitStruct.BaseAddress = 0x0;
-  MPU_InitStruct.Size = MPU_REGION_SIZE_4GB;
-  MPU_InitStruct.SubRegionDisable = 0x87;
-  MPU_InitStruct.TypeExtField = MPU_TEX_LEVEL0;
-  MPU_InitStruct.AccessPermission = MPU_REGION_NO_ACCESS;
-  MPU_InitStruct.DisableExec = MPU_INSTRUCTION_ACCESS_DISABLE;
-  MPU_InitStruct.IsShareable = MPU_ACCESS_SHAREABLE;
-  MPU_InitStruct.IsCacheable = MPU_ACCESS_NOT_CACHEABLE;
-  MPU_InitStruct.IsBufferable = MPU_ACCESS_NOT_BUFFERABLE;
-
-  HAL_MPU_ConfigRegion(&MPU_InitStruct);
-  /* Enables the MPU */
-  HAL_MPU_Enable(MPU_PRIVILEGED_DEFAULT);
-
-}
 
 /**
   * @brief  This function is executed in case of error occurrence.
