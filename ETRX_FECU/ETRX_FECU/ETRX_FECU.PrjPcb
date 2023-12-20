@@ -479,36 +479,36 @@ DocumentPath=Project Outputs for ETRX_FECU\NC Drill\ETRX_FECU.TXT
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Version
-Value=1.0
+Name=Company
+Value=e-Tech Racing
 
 [Parameter2]
-Name=ReviewerName
-Value=Andreu Senis
-
-[Parameter3]
-Name=Project
-Value=Front ECU
-
-[Parameter4]
-Name=DesignerName
-Value=Bernat Costa Cesari
-
-[Parameter5]
-Name=DesignerMail
-Value=bernat.costa.cesari@estudiantat.upc.edu
-
-[Parameter6]
-Name=DesignedByURL
-Value=e-techracing.es
-
-[Parameter7]
 Name=Department
 Value=Hardware
 
+[Parameter3]
+Name=DesignedByURL
+Value=e-techracing.es
+
+[Parameter4]
+Name=DesignerMail
+Value=bernat.costa.cesari@estudiantat.upc.edu
+
+[Parameter5]
+Name=DesignerName
+Value=Bernat Costa Cesari
+
+[Parameter6]
+Name=Project
+Value=Front ECU
+
+[Parameter7]
+Name=ReviewerName
+Value=Andreu Senis
+
 [Parameter8]
-Name=Company
-Value=e-Tech Racing
+Name=Version
+Value=1.0
 
 [DiffPairSuffix1]
 Positive=_H

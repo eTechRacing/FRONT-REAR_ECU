@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\berna\OneDrive\download\New\download\Documentos\GitHub\ADCAN\ETRX_FECU\ETRX_FECU\ETRX_FECU.PcbDoc
-Date     : 18/12/2023
-Time     : 10:25:10
+Date     : 20/12/2023
+Time     : 10:22:17
 
 Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
 Rule Violations :0
@@ -66,4 +66,4 @@ Rule Violations :0
 
 Violations Detected : 21
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
