@@ -217,7 +217,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=IARDZSOA
 
 [Document11]
 DocumentPath=..\..\CommonFiles\Altium_Libraries_e-Tech_Racing\PCB\Electromechanical.PcbLib
@@ -251,7 +251,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=TAJQCUKD
 
 [Document13]
 DocumentPath=..\..\CommonFiles\Altium_Libraries_e-Tech_Racing\PCB\Filter components.PcbLib
@@ -336,39 +336,80 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+DocumentUniqueId=JQTLLCMA
+
+[Document18]
+DocumentPath=Job1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
 DocumentUniqueId=
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for PlacaSensor_MPXV7002\Design Rule Check - PlacaSensor_MPXV7002.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for PlacaSensor_MPXV7002\NC Drill\PlacaSensor_MPXV7002.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for PlacaSensor_MPXV7002\Gerber\PlacaSensor_MPXV7002.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for PlacaSensor_MPXV7002\NC Drill\PlacaSensor_MPXV7002.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for PlacaSensor_MPXV7002\Gerber\PlacaSensor_MPXV7002.REP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for PlacaSensor_MPXV7002\NC Drill\PlacaSensor_MPXV7002.TXT
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Version
-Value=1.0
+Name=Company
+Value=e-Tech Racing
 
 [Parameter2]
-Name=ReviewerName
-Value=José Ramirez
-
-[Parameter3]
-Name=Project
-Value=PlacaSensor_MPXV7002
-
-[Parameter4]
-Name=DesignerName
-Value=Bernat Costa Cesari
-
-[Parameter5]
-Name=DesignerMail
-Value=bernat.costa.cesari@estudiantat.upc.edu
-
-[Parameter6]
-Name=DesignedByURL
-Value=e-techracing.es
-
-[Parameter7]
 Name=Department
 Value=Hardware
 
+[Parameter3]
+Name=DesignedByURL
+Value=e-techracing.es
+
+[Parameter4]
+Name=DesignerMail
+Value=bernat.costa.cesari@estudiantat.upc.edu
+
+[Parameter5]
+Name=DesignerName
+Value=Bernat Costa Cesari
+
+[Parameter6]
+Name=Project
+Value=PlacaSensor_MPXV7002
+
+[Parameter7]
+Name=ReviewerName
+Value=José Ramirez
+
 [Parameter8]
-Name=Company
-Value=e-Tech Racing
+Name=Version
+Value=1.0
 
 [Configuration1]
 Name=Sources
@@ -1113,6 +1154,8 @@ Type133=1
 Type134=1
 Type135=1
 Type136=1
+Type137=1
+Type138=1
 
 [Difference Levels]
 Type1=1
@@ -1342,6 +1385,8 @@ Type148=2
 Type149=2
 Type150=2
 Type151=2
+Type152=1
+Type153=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
