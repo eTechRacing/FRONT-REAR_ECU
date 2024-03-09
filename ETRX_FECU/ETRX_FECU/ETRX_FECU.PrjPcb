@@ -496,36 +496,36 @@ DocumentPath=Project Outputs for ETRX_FECU\NC Drill\ETRX_FECU.TXT
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Version
-Value=1.0
+Name=Company
+Value=e-Tech Racing
 
 [Parameter2]
-Name=ReviewerName
-Value=Andreu Senis
-
-[Parameter3]
-Name=Project
-Value=Front ECU
-
-[Parameter4]
-Name=DesignerName
-Value=Bernat Costa Cesari
-
-[Parameter5]
-Name=DesignerMail
-Value=bernat.costa.cesari@estudiantat.upc.edu
-
-[Parameter6]
-Name=DesignedByURL
-Value=e-techracing.es
-
-[Parameter7]
 Name=Department
 Value=Hardware
 
+[Parameter3]
+Name=DesignedByURL
+Value=e-techracing.es
+
+[Parameter4]
+Name=DesignerMail
+Value=bernat.costa.cesari@estudiantat.upc.edu
+
+[Parameter5]
+Name=DesignerName
+Value=Bernat Costa Cesari
+
+[Parameter6]
+Name=Project
+Value=Front ECU
+
+[Parameter7]
+Name=ReviewerName
+Value=Andreu Senis
+
 [Parameter8]
-Name=Company
-Value=e-Tech Racing
+Name=Version
+Value=1.0
 
 [DiffPairSuffix1]
 Positive=_H
@@ -1125,36 +1125,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1607,9 +1577,10 @@ PartTypes=0
 Net1=NetName=+24|NetColor=$00FF6E6E
 Net2=NetName=+3.3|NetColor=clYellow
 Net3=NetName=+5|NetColor=$00FF6EFF
-Net4=NetName=GND|NetColor=$00908D91
-Net5=NetName=LV tr|NetColor=$00FF6E6E
-Net6=NetName=VDDA|NetColor=clYellow
+Net4=NetName=AGND|NetColor=$00727882
+Net5=NetName=GND|NetColor=$00727882
+Net6=NetName=LV tr|NetColor=$00FF6E6E
+Net7=NetName=VDDA|NetColor=clYellow
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
